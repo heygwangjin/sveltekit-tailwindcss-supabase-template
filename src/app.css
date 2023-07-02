@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.svelte-progress-bar,
+	.svelte-progress-bar-leader {
+		@apply bg-orange-400;
+		@apply text-orange-400;
+	}
+}
